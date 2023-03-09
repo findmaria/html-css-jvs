@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livrinhos</title>
+</head>
+    <strong>Livros lidos em 2023</strong>
+<body>
+    <ul>
+        <li>Janeiro</li>
+        <ul>
+                <li>Duologia 'Vilão'</li>
+                <ul>
+                    <li>Vilão</li>
+                    <li>Vingança</li> <br>
+                </ul>
+                <li>Amores verdadeiros</li>
+                <ul>
+                        <li>O erro</li>
+                        <li>O jogo</li>
+                        <li>A conquista</li> <br>
+                </ul>
+            
+        </ul>
+
+        <li>Fevereiro</li>
+        <ul>
+            <li>Briar U</li>
+            <ul>
+                <li>The chase </li>
+                <li>The risk</li>
+                <li>The play</li>
+                <li>The dare</li> <br>
+            </ul>
+            <li>Duologia 'É assim que acaba'</li>
+            <ul>
+                <li>É assim que acaba</li>
+                <li>É assim que começa</li> <br>
+            </ul>
+            <li>A paciente silenciosa</li> <br>
+        </ul>
+        
+        <li>Março</li>
+        <li>Abril</li>
+        <li>Maio</li>
+        <li>Junho</li>
+        <li>Julho</li>
+        <li>Agosto</li>
+        <li>Setembro</li>
+        <li>Outubro</li>
+        <li>Novembro</li>
+        <li>Dezembro</li>
+        
+    </ul>
+</body>
+</html>
