@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="sorte.ico" type="image/x-icon">
+    <title>Sujeito a alterações</title><link rel="shortcut icon" href="ex1e2eanotacoes/sorte.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Olá mundo!</h1>
+    <hr>
+    <p>
+        <strong>Esse é o meu primeiro documento html! </strong> <br> 
+        <strong>URRUU!!!</strong>
+    </p>
+    <p>
+        <em>Exemplo de como mostrar abetura e fechamento de tags em texto, sem necessariamente abrir novas tags. tag &lt;/p&gt;</em>
+    </p>
+    <p>
+        <del>Olha só hahahaha </del><br> CONSEEGUIII 🤪</p>
+    <img src="Evelingg.jpg" alt="Evelin que não é Evelin">
+    <p>Qual é o resultado de 9<sup>2</sup>?</p>
+    <p><sty>Eu adoro H<sub>2</sub>O!</p> 
+    <p>
+    <strong>Agora um exemplo de código em c:</strong>
+    <pre><code> 
+    int main(){
+    printf ("hello word!");
+    }
+    </code></pre>
+    </p>
+    <p> 
+        <strong>Vejamos agora uma citação do velho safado:</strong>
+    </p>
+    <blockquote cite= "https://citacoes.in/autores/charles-bukowski/">
+        <q>
+            <em>A maior parte do mundo estava doida. E a parte que não era doida era furiosa <br>e a parte que não era doida nem furiosa era apenas idiota.</em>
+        </q>
+    </blockquote>
+    <p>Eu estou aprendendo <abbr title="Hyper Text Markup Language">HTML</abbr> para criar sites.</p>
+    <h1>Testando o comando(Ctrl+Shift+p) do vs code</h1>
+    <p><i>Deixar em itálico</i></p>
+</body>
+</html>
+
+<!--AULA 13: PARÁGRAFOS E QUEBRAS.
+    tag <br> é utilizada para quebra de linha. O seu texto pode estar escrito
+de qualquer forma, mas se não houver essa tag, o texto ainda estará como em uma frase normal, 
+sem qualquer quebra. Exemplo acima-->
+
+<!--Aula 14: EMOJIS E CARACTERES ESPECIAIS.
+    Para caracteres especiais como < e >, que indicam o começo e o fim da tag,
+devem ser escritos da seguinte forma - &lt &gt, resepctivamente. Exemplos acima.
+    Para caracteres especiais há certos códigos a serem utilizados, 
+como o exemplo dos símbolos menor e maior que. Para emojis, pode ser 
+utilizado o site emojipedia, onde tem os emojis e seus respectivos 
+códigos em hexadecimaL, que em html deve ser escrito da seguinte maneira:
+&#xcódigo-->
+
+<!--AULA 15: VOCÊ TEM O DIREITO DE USAR QUALQUER IMAGEM NO SEU SITE?
+    1º - Você não pode simplesmente copiar e colar qualquer imagem do google. Podes ir em 'ferramentas' e escolher os direitos de uso.
+    2º - Sites:
+    'Unsplash' (buscas em inglês); 
+    'pexels'-->
+
+<!--AULA 16: FORMATOS DE IMAGEM NA WEB.
+    * Jpeg e Png são os principais tipos utilizados, e seu uso deve ser feito de acordo com a necessidade.
+    * A principal vantagem do Jpeg é ser compacto. Assim como Jpeg, o Png também é compacto, mas não tanto quanto o Jpeg e oferece certa transparência. **CRIADO PRA SUBSTIRUIR O GIF 🤣   
+    * png usado para imagens com fundo transparente e maior qualidade, enquanto JPG para imagens onde a compactação é algo importante. -->
+
+<!--AULA 17: O TAMANHO DA IMAGEM IMPORTA PARA UM SITE? 
+    Óbvio! No máximo 1500 mega de largura. Para aparecer em um site, normalmente ela tem 650 mega.
+    * Quando se diminui a largura de uma imagem,  tem que mudar proporcionalmente a altura. 
+
+    *Gimp para editar imagens. Imagem - Redimensionar imagem (para mudar altura e largura)-->
+
+<!--AULA 18: A TAG IMG EM HTML5.
+    A tag foi usada no documento acima; a imagem estar na mesma pasta que o documento html ajuda, inclusive pode ser usado o atalho ctrl+espaço.-->
+
+<!--AULA 19: COMO MUDAR O FIVICON DE UM SITE.
+    o que é favicon - favorite icon. 
+    iconachirve para escolher um icon. arquivos .ico
+    favicon.cc
+    favicom.io-->
+
+<!--AULA 20: HIERARQUIA DE TÍTULOS. 
+    Há níveis que devem ser respeitados, não se trata de numeração de títulos. Farei outra pasta com esse documento html para praticar o exercício proposto.-->
+
+<!--AULA 21: SEMÂNTICA NO HTML5 É IMPORTANTE.
+    No html4 vc podia estilizar o documento com certas tags, mas hj elas estão fora de uso e para isso é utilizado css. As tags geralmente ficam em vermelho e podem funcionar, mas isso não quer dizer que devem ser utilizadas. 
+    *Ver tags obsletas no site da W3C. É importante estar sempre de olho pois muitas tags se tornam obseletas.-->
+
+<!--AULA 22:NEGRITO E ITÁLICO DO JEITO CERTO.
+    *tag <strong> para negrito (semântica). A tag <b> pode ser usada, mas ela não é semântica e tem haver somente com forma. 
+    *tag <em> para itálico. A tag <i> pode ser usada, mas ela não é semântica e tem haver somente com forma. -->
+
+<!--AULA 23: FORMATAÇÕES ADICIONAIS EM HTML.
+    *tag <mark> para marcação de texto
+    *tag <del> para desconsiderar uma parte do texto.
+    *tag <ins> texto inserido, é o contrário de <del>, significa que o texto tem que ser lido
+    *tag <sub> e o <sup> para textos sobrescrito e subescrito-->
+        
+<!--AULA 24: CITAÇÕES E CÓDIGOS.
+    *tags <pre><code></code></pre> para manter o texto pré-formatado, exatamente da mesma maneira que ele foi digitado.
+    *tags <q> e <blockquote> para citações. Utilizando o parâmetro cite="" é possível incluir o link do site.
+    *tag <abbr title=""></abbr para abreviações. ao passar o cursor do mouse por cima da sigla, aparecerá o significado dela.
+    *tag <bdo dir="rtl** ou ltr**" para escrever o texto invertido.-->
+    
+<!--AULA 25: LISTAS OL E UL.
+    Para listas ordenadas usa-se a tag <ol>; <li> para adicionar itens à lista; parâmetro type (na tag <ol>) para escolher a formatação da lista (1, A, a, I, i) 
+    Para listas não ordenadas usa-se a tag <ul>; <li> para adicionar itens à lista; parâmetro type (na tag <u>) para escolher a formatação da lista (disc, circle, square)-->
+
+<!--Aula 26: Listas mistas e de definição.
+    Você pode juntar listas. Sejam elas ordenadas ou não ordenadas.
+    *Clica na tag, segura Alt e clica na outra tag a ser mudada*
+    Lista de definição: É como se fosse um dicionário. tags - dl(definition list, para criar); dt(termo); dd(descrição)-->
+
+
